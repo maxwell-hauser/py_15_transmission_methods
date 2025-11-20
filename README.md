@@ -471,3 +471,11 @@ A: For external connections, yes. Parallel faces fundamental physics limitations
 
 **Course Navigation:**  
 ← Previous: [Chapter 14 - Transmission Types](../ch14_transmission_types/) | Next: [Chapter 16 - Course Summary](../ch16_course_summary_and_exercises/) →
+
+---
+
+## Authorship
+Authored by Maxwell Hauser on November 19, 2025
+
+## License
+MIT License

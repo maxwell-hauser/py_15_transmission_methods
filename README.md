@@ -22,14 +22,6 @@ This chapter explores the two fundamental methods of physically transmitting dat
 
 ### Characteristics
 
-- **Multiple Data Lines:** 8, 16, 32, or more wires
-- **Simultaneous Transfer:** All bits of a word sent at once
-- **Fast (in theory):** One clock cycle per word
-- **Short Distance:** Wire length limited by skew
-
-### Parallel Data Transfer
-
-```
 8-bit Parallel Transmission:
 
 Time →
@@ -46,24 +38,14 @@ Clock:  ─┐└─┐└─┐└─┐└─┐└─
 
 All 8 bits transferred in one clock cycle
 ```
-
-### Example: Sending 0xA5 (10100101)
-
-```
-Parallel (8 wires, 1 clock cycle):
-
 Wire 0 (D0): 1 ─
-Wire 1 (D1): 0 ─
 Wire 2 (D2): 1 ─
 Wire 3 (D3): 0 ─
 Wire 4 (D4): 0 ─
 Wire 5 (D5): 1 ─
-Wire 6 (D6): 0 ─
 Wire 7 (D7): 1 ─
 Clock:       ↑
-             └─ All bits valid here
-
-Time: 1 clock cycle
+<!-- License moved to dedicated LICENSE file -->
 ```
 
 ### Parallel Bus Widths
